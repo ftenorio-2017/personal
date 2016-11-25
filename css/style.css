@@ -1,3 +1,7 @@
+body {
+  background-color: #efefff;
+}
+
 /* .jumbotron {
     /* add bootstrap jumbotron background image */
     /* background: url("images/banner.jpg"); */
@@ -33,10 +37,6 @@ p {
   font-size: 16px;
 }
 
-li {
-  ;
-}
-
 blockquote {
   background: #f0f0f0;
   border-left: 10px solid #003366;
@@ -47,4 +47,8 @@ blockquote {
 
 blockquote p {
   display: inline;
+}
+
+img {
+  margin-top: 30px;
 }
