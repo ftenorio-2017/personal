@@ -22,107 +22,136 @@
             @import 'https://fonts.googleapis.com/css?family=Amatic+SC';
         </style-->
     </head>
-    <body>
-        <!--h1 class="top-header">... Y el señor dijo, sigueme y seras libre. ...</h1-->
-        <!--header-->
-            <!-- Navigation -->
-            <div  class="navbar-wrapper">            
-                <div class="container">
-                	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-                    	<!-- Brand and toggle get grouped for better mobile display -->
-                    	<div class="navbar-header">
-                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#1stBit">
-                            	<span class="sr-only">Toggle navigation</span>
-                            	<span class="icon-bar"></span>
-                            	<span class="icon-bar"></span>
-                            	<span class="icon-bar"></span>
-                        	</button>
-                        	<a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/ftenorio-2017/personal/gh-pages/images/Logo1stBit.png" alt="1stBit"></a>
-                    	</div> <!-- Collect the nav links, forms, and other content for toggling -->
-                    	<div class="collapse navbar-collapse" id="1stBit">
-                        	<ul class="nav navbar-nav">
-                            	<li><a href="index.html">Inicio</a></li>
-                            	<li><a href="servicios.html">Servicios</a></li>
-                            	<li><a href="#">Contacto</a></li>
-                            	<li class="dropdown">
-                                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Acerca de nosotros<span class="caret"></span></a>
-                                	<ul class="dropdown-menu" role="menu">
-                                    	<li><a href="#">Misi&oacute;n</a></li>
-                                    	<!--li class="divider"></li-->
-                                	</ul>
-                            	</li>
-                        	</ul>
-                        	<!--form action="" class="navbar-form navbar-right" role="search">
-                            	<div class="form-group">
-                                	<input type="text" class="from-control" placeholder="buscar">
-                            	</div>
-                            	<button type="submit" class="btn btn-primary">
-                                	<span class="glyphicon glyphicon-search"></span>
-                            	</button>
-                        	</form-->
-                    	</div> <!-- /.navbar-collapse -->
-                    </nav>
-                </div> <!-- /.container -->
-            </div>
-            <div class="container">
-            	<div class="row">            	
-  					<div class="col-xs-12 col-sm-12 col-md-4">
-  						<img src="images/foto.png" border="1"><br>
-  						<h1>Datos Generales</h1>
-  						<ul>
-  							<li>
-  								<h3>Nombre:<br></h3>
-  								<h4>Tenorio Morga Armando Francisco</h4>
-  							</li>
-  							<li>
-								<h3>Fecha de Nacimiento:<br></h3>
-  								<h4>10/Octubre/1967</h4>
-  							</li>
-  							<li>
-								<h3>Dirección:<br></h3>
-  								<h4>Norte 82-A, No. 6529, Int 2<br></h4>
-  								<h4>Col. San Pedro el Chico, C.P. XXXXX<br></h4>
-  								<h4>Del. Gustavo A. Madero<br></h4>
-  							</li>
-  							<li>
-								<h3>Teléfono:<br></h3>
-  								<h4>044 55 52482901</h4>
-  							</li>
-  							<li>
-								<h3>Correo electrónico:<br></h3>
-  								<h4>armandofrancisco@yahoo.com</h4>
-  							</li>
-  						</ul>
-  					</div>
-  					<div class="col-xs-12 col-sm-12 col-md-8">
-  						<h1>Armando Francisco Tenorio Morga</h1>
-  						<h2>Consultor TI / Programador</h2>
-  						<h3>He participado en proyectos para el sector público y privado, me gutan los 
-  						    retos y tengo experiencia en la resolución de problemas, así como en dirigir 
-  						    persolnal del área de informática.</h3>
-  						<ul>
-  							<li>
-  								<h3>Escolaridad<br></h3>
-  								<h4>bla bla bla</h4>
-  							</li>
-  							<li>
-								<h3>Experiencia  profesional<br></h3>
-  								<h4></h4>
-  							</li>
-  						</ul>
-  					</div>
-				</div>
- 			</div>
-        <!--/header-->
-        <!--A qui va el jumpbutton-->
-        <!--section class="mi-jumbotron">
-          <div class="container">
-            <h1></span>1stBit</h1>
-            <p>Consultores en TI</p>
+    <body>    
+      
+      <div class="container">
+        <div id="idHeader" class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img src="images/foto.png" class="img-responsive center-block" height="50%" width="50%">
+              <!--div class="caption">
+                <h3>Título</h3>
+                <p>Meclando cosas con Bootstrap desde OpenWebinars.</p>
+                <p><a href="#" class="btn btn-primary" role="button">Botón</a> </p>
+             </div-->
           </div>
-        </section-->
-        <!-- <div class="col-md-12"-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+          <div class="col-xs-12 col-sm-12 col-md-8">
+            <h2>Armando Francisco Tenorio Morga</h2>
+            <h3 id="topMarginoff">Consultor TI / Programador</h3>
+            <br>
+            <p class="text-justify">Experiencia en el desarrollo de aplicaciones moviles y de escritorio 
+              en los lenguajes Java, C# y PHP me gustan los retos y trbajo bien bajo presi&oacute;n.</p>
+            <p>Portafolio de aplicaciones desarrolladas disponible.</p>
+           </div>
+        </div>
+
+        <div class="row">          
+          <div id="idLeft" class="col-xs-12 col-sm-12 col-md-4">              
+            <h3>Datos Generales</h3>              
+              <blockquote>                  
+                <p><strong>Nombre:</strong></p>
+                <p>Tenorio Morga Armando Francisco</p>
+              </blockquote>
+              <blockquote>                  
+                <p><strong>Fecha de Nacimiento:</strong></p>
+                <p>10/Octubre/1967</p>
+              </blockquote>
+              <blockquote>                  
+                <p><strong>Dirección:</strong></p>
+                <p>Norte 82-A, No. 6529, Int 2</p>
+                <p>Col. San Pedro el Chico, C.P. 07480<br></p>
+                <p>Del. Gustavo A. Madero</p>                 
+              </blockquote>
+              <blockquote>                  
+                <p><strong>Teléfono:</strong></p>
+                <p>044 55 52482901</p>                  
+              </blockquote>
+              <blockquote>                  
+                <p><strong>Correo electrónico:</strong></p>
+                <p>armandofrancisco@yahoo.com</p>                 
+              </blockquote>
+          </div></u>
+          <div id="idRight"class="col-xs-12 col-sm-12 col-md-8">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h3 class="text-center">Escolaridad</h3>
+                  <p><strong>Carrera:</strong>Licenciatura en Matem&aacute;ticas, con orientaci&oacute;n a ciencias de la computaci&oacute;n<br>
+                  Facultad de ciencias U.N.A.M</p>
+                  <br><hr>
+                  <h3 class="text-center">Experiencia profesional</h3>
+                    <ul>
+                      <li>
+                        <h4><b>Proyecto m&aacute;s reciente:</b></h4>
+                        <p><strong><u>Aplicaci&oacute;n para grupo Modelo</u></strong></p>
+                        <ul style="list-style-type:circle">
+                          <li>  
+                            <p><strong>Objetivo de la aplicaci&oacute;n:</strong>Llevar registro de fallas de equipo, en las diferentes<br> plantas, en Tablets y Kioscos intalados en las mismas</p>
+                          </li>
+                          <li><p><strong>Lenguaje utilizado:</strong>Java, framework JavaFX</p></li>
+                          <li><p><strong>Bases de datos utlizadas:</strong>SQLite, PostgreSQL</p></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <h4><b>Trabajos anteriores</b></h4>
+                        <p><strong><u>INEA</strong></u></p>
+                        <ul>
+                          <li><p><strong>Cargo:</strong>Jefe de centro de datos</p></li>
+                          <li><p><strong>Actividades:</strong>
+                              <br> Supervisar el buen funcionamiento de los servidores y los sistemas alojados en KIO Networks
+                              <br>Avisar del pago mensual a KIO Networks, si el servicio fue adecuado
+                              <br>Monitoreo de aplicaciones:
+                              <br>- Sitio WEB
+                              <br>- Correo electrónico
+                              <br>- Bases de datos</p>
+                          <li><p><strong>Conocimientos necesarios</strong>
+                              <br>Sistemas operativos, Bases de datos y protocolos de comunicaci&oacute;n (TCP/IP, HTTP, SSH)</p>
+                          </li>
+                          <p><footer><strong>Periodo:</strong> del 24 de junio 2013 a 24 diciembre 2013</footer></p>
+                        </ul>
+                        <br>
+                        <p><strong><u>Presidencia de la rep&uacute;blica</strong></u></p>
+                        <ul>
+                          <li><p><strong>Cargo:</strong>Jefe de departamento de sistemas</p></li>
+                          <li><p><strong>Actividades:</strong>
+                              <br>- Desarollo apliacaci&oacute;n para el control de IP estaticas e inventario.
+                              <br>- Explotaci&oacute;n de la informaci&oacute;n almacenada en el sistema CRM para generar estad&iacute;sticos que el Presidente de la rep&uacute;ca y el IFAI solicitan (lenguaje utilizado SQL)
+                              <br>- Supervisar y monitorear el buen funcionamiento del correo del presidente.</p>
+                          </li>
+                          <li><p><strong>Lenguajes utilizados</strong>
+                              <br>SQL, Php</p>
+                          </li>
+                          <li><p><strong>Bases de datos utilizadas</strong>
+                              <br>SQL Server, MySQL</p>
+                          </li>
+                          <p><footer><strong>Periodo:</strong> de enero 2013 a junio 2013</footer></p>
+                        </ul>
+                        <br>
+                        <p><strong><u>(Outsourcing) Relum S. A. de C. V.</strong></u></p>
+                        <ul>
+                          <li><p><strong>Cargo:</strong>Programador</p></li>
+                          <li><p><strong>Actividades:</strong>
+                              Desarrollor de apliacación para terminal movil (Windows Mobile)</p>
+                          <li><p><strong>Objetivo:</strong>captura de inventario por codigo de barras</p>
+                          </li>
+                          <li><p><strong>Lenguajes utilizados</strong>
+                              <br>C#, SQL</p>
+                          </li>
+                          <li><p><strong>Sotfware utlizado</strong>
+                              <br>Visual Studio 2008, .NET Compact Framework 3.5, SQL Server</p>
+                          </li>                          
+                        </ul>
+                      </li>                    
+                    </ul>
+                </div>
+              </div>              
+            </div>
+        </div>
+        <div id="idHeader" class="row">
+          <div class="col-xs-12">            
+              <p class="text-right"><small>&#169; Copyright 2016</small></p>
+          </div>
+        </div>
+      </div> <!-- /.container -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
